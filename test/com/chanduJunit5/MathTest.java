@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 class MathTest {
 
 	@Test
-	void test() {
+	void minAndMaxTest() {
 		int a=Math.min(4 , 9);
 		int b=Math.max(29, 31);
 		assertEquals(4,a);
